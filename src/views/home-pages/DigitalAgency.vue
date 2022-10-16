@@ -2,7 +2,7 @@
     <Layout header-class="header-left-align" nav-alignment="left" :header-transparency="true" :show-top-header="false" buy-button-class="btn-default btn-small">
         <!-- Start Slider Area -->
         <div class="slider-area slider-style-4 slider-dot rn-slick-dot rn-slick-arrow">
-            <VueSlickCarousel v-bind="sliderSetting" :autoplay="true" :pauseOnHover="false">
+            <VueSlickCarousel v-bind="sliderSetting" :autoplay="true" :pauseOnHover="false" :autoplaySpeed="5000">
                 <div v-for="(slider, index) in sliderData" :key="index" class="single-slide">
                     <div class="height-950 bg-overlay bg_image"
                          :style="{'background-image': `url(${require(`@/assets/images/bg/${slider.image}.jpg`)})`}">
@@ -14,7 +14,8 @@
                                         <p class="description" v-html="slider.description"/>
                                         <div class="button-group mt--30">
                                             <a class="btn-default"
-                                               href="#">
+                                               :href="slider.site"
+											   target="_blank">
                                                 Official Website
                                             </a>
                                         </div>
@@ -226,19 +227,22 @@
                         // image: 'bg-image-6',
                         image: 'jiateng',
                         title: 'Jaten',
-                        description: 'AGV/AMR vendor keen on customized solution since 2005.'
+                        description: 'AGV/AMR vendor keen on customized solution since 2005.',
+						site: 'https://www.jtrobots.com/index/index/index'
                     },
                     {
                         // image: 'bg-image-14',
                         image: 'robosense',
                         title: 'Creative Agency.',
-                        description: 'We help our clients succeed by creating brand identities, digital experiences, and print materials.'
+                        description: 'We help our clients succeed by creating brand identities, digital experiences, and print materials.',
+						site: 'https://www.robosense.ai/en'
                     },
                     {
                         // image: 'bg-image-15',
                         image: 'robotics',
                         title: 'Startup Agency.',
-                        description: 'We help our clients succeed by creating brand identities, digital experiences, and print materials.'
+                        description: 'We help our clients succeed by creating brand identities, digital experiences, and print materials.',
+						site: 'https://en.dh-robotics.com/'
                     },
                 ],
                 testimonialData: [
