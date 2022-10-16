@@ -2,7 +2,7 @@
     <Layout header-class="header-left-align" nav-alignment="left" :header-transparency="true" :show-top-header="false" buy-button-class="btn-default btn-small">
         <!-- Start Slider Area -->
         <div class="slider-area slider-style-4 slider-dot rn-slick-dot rn-slick-arrow">
-            <VueSlickCarousel v-bind="sliderSetting">
+            <VueSlickCarousel v-bind="sliderSetting" :autoplay="true" :pauseOnHover="false">
                 <div v-for="(slider, index) in sliderData" :key="index" class="single-slide">
                     <div class="height-950 bg-overlay bg_image"
                          :style="{'background-image': `url(${require(`@/assets/images/bg/${slider.image}.jpg`)})`}">
@@ -15,7 +15,7 @@
                                         <div class="button-group mt--30">
                                             <a class="btn-default"
                                                href="#">
-                                                PURCHASE NOW
+                                                Official Website
                                             </a>
                                         </div>
                                     </div>
@@ -223,17 +223,20 @@
                 },
                 sliderData: [
                     {
-                        image: 'bg-image-6',
-                        title: 'Digital Agency.',
-                        description: 'We help our clients succeed by creating brand identities, digital experiences, and print materials.'
+                        // image: 'bg-image-6',
+                        image: 'jiateng',
+                        title: 'Jaten',
+                        description: 'AGV/AMR vendor keen on customized solution since 2005.'
                     },
                     {
-                        image: 'bg-image-14',
+                        // image: 'bg-image-14',
+                        image: 'robosense',
                         title: 'Creative Agency.',
                         description: 'We help our clients succeed by creating brand identities, digital experiences, and print materials.'
                     },
                     {
-                        image: 'bg-image-15',
+                        // image: 'bg-image-15',
+                        image: 'robotics',
                         title: 'Startup Agency.',
                         description: 'We help our clients succeed by creating brand identities, digital experiences, and print materials.'
                     },
