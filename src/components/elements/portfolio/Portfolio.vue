@@ -125,15 +125,15 @@
                     },
                     {
                         id: 2,
-                        text: 'design',
+                        text: 'AGV',
                     },
                     {
                         id: 3,
-                        text: 'art',
+                        text: 'Tractor',
                     },
                     {
                         id: 4,
-                        text: 'development',
+                        text: 'AutoForklift',
                     }
                 ],
                 activeFilter: '',

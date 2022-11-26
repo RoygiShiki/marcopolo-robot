@@ -36,9 +36,9 @@
                     <div class="col-lg-12">
                         <SectionTitle
                             text-align="center"
-                            subtitle="About Our Company."
-                            title="Services provide for you."
-                            description="There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration."
+                            subtitle="About Jaten."
+                            title="Products provide for you."
+                            description="Jaten is a world-leading provider of AGV robots and intelligent logistics systems. It was established in 2002. So far, more than 60 Fortune 500 companies have used Jaten's products. Jaten products are widely used in various industries such as automobile, electronics, lithium battery production, chemical industry, daily necessities and heavy machinery and equipment production."
                             data-aos="fade-up"
                         />
                     </div>
@@ -52,6 +52,35 @@
         <!-- End Service Area -->
 
         <Separator/>
+		
+		<!-- Start Progressbar Area -->
+		<div class="rwt-progressbar-area rn-section-gap">
+		    <div class="container">
+		        <div class="row mb--25">
+		            <div class="col-lg-10 offset-lg-1">
+		                <SectionTitle
+		                    text-align="center"
+		                    subtitle="Our Partners"
+		                    title="Company Partners"
+		                    description="We have lots of partners all around the world."
+		                    data-aos="fade-up"
+		                />
+		            </div>
+		        </div>
+		        <div class="row">
+		            <div class="col-lg-10 offset-lg-1">
+		                <Progressbar
+		                    :progress-data="progressCircleData"
+		                    :progress-style="5"
+		                    column="col-lg-6 col-md-6 col-sm-6 mt--30 col-12"
+		                />
+		            </div>
+		        </div>
+		    </div>
+		</div>
+		<!-- Start Progressbar Area -->
+		
+		<Separator/>
 
         <!-- Start Portfolio Area -->
         <div class="rwt-portfolio-area rn-section-gap">
@@ -60,9 +89,9 @@
                     <div class="col-lg-12">
                         <SectionTitle
                             text-align="center"
-                            subtitle="Why Choose Us"
-                            title="Companies Choose us!"
-                            description="There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration."
+                            subtitle="Products"
+                            title="Products"
+                            description="Jaten products are widely used in various industries such as automobile, electronics, lithium battery production, chemical industry, daily necessities and heavy machinery and equipment production."
                             data-aos="fade-up"
                         />
                     </div>
@@ -74,37 +103,8 @@
 
         <Separator/>
 
-        <!-- Start Progressbar Area -->
-        <div class="rwt-progressbar-area rn-section-gap">
-            <div class="container">
-                <div class="row mb--25">
-                    <div class="col-lg-10 offset-lg-1">
-                        <SectionTitle
-                            text-align="center"
-                            subtitle="Our Expertise"
-                            title="Companies Expertise"
-                            description="There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration"
-                            data-aos="fade-up"
-                        />
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-10 offset-lg-1">
-                        <Progressbar
-                            :progress-data="progressCircleData"
-                            :progress-style="5"
-                            column="col-lg-3 col-md-6 col-sm-6 mt--30 col-12"
-                        />
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Start Progressbar Area -->
-
-        <Separator/>
-
         <!-- Start Testimonial Area  -->
-        <div class="rwt-testimonial-area rn-section-gap">
+      <!--  <div class="rwt-testimonial-area rn-section-gap">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -125,7 +125,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- End Testimonial Area  -->
 
         <Separator/>
@@ -271,36 +271,20 @@
                 progressCircleData: [
                     {
                         id: 1,
-                        title: 'Design',
+                        title: 'Partners From China',
                         percentage: 85,
-                        subtitle: 'Presentation your skill',
+                        subtitle: 'We have cooperative relations with 85% of enterprises in China.',
                         strokeColor: '#0f0f11',
                         strokePath: '#059DFF'
                     },
                     {
                         id: 2,
-                        title: 'Photoshop',
+                        title: 'Partners From Whole World',
                         percentage: 60,
-                        subtitle: 'Presentation your skill',
+                        subtitle: 'We have cooperative relations with 60% of enterprises in the world.',
                         strokeColor: '#0f0f11',
                         strokePath: '#059DFF'
-                    },
-                    {
-                        id: 3,
-                        title: "Application",
-                        percentage: 70,
-                        subtitle: "Presentation your skill",
-                        strokeColor: '#0f0f11',
-                        strokePath: '#059DFF'
-                    },
-                    {
-                        id: 4,
-                        title: 'Development',
-                        percentage: 95,
-                        subtitle: 'Presentation your skill',
-                        strokeColor: '#0f0f11',
-                        strokePath: '#059DFF'
-                    },
+                    }
                 ],
                 portfolioData:  [
                     {
@@ -311,7 +295,7 @@
                         subtitle: 'Branded client',
                         date: '30 May 2021',
                         client: 'Rainbow Themes',
-                        category: 'development',
+                        category: 'AGV',
                         awards: ['2020 Design beautiful apps Finale Awards'],
                         excerpt: 'Design beautiful apps.',
                         body: `<p>In a typical Vue application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme).</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p>`,
@@ -346,7 +330,7 @@
                         subtitle: 'Awesome portfolio',
                         date: '01 March 2021',
                         client: 'Rainbow Themes',
-                        category: 'design',
+                        category: 'Tractor',
                         awards: ['2020 Design beautiful apps Finale Awards'],
                         excerpt: 'Design beautiful apps.',
                         body: `<p>In a typical Vue application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme).</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p>`,
@@ -381,7 +365,7 @@
                         subtitle: 'Awesome portfolio',
                         date: '01 March 2021',
                         client: 'Rainbow Themes',
-                        category: 'art',
+                        category: 'AutoForklift',
                         awards: ['2020 Design beautiful apps Finale Awards'],
                         excerpt: 'Design beautiful apps.',
                         body: `<p>In a typical Vue application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme).</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p>`,
@@ -416,7 +400,7 @@
                         subtitle: 'Awesome portfolio',
                         date: '01 March 2021',
                         client: 'Rainbow Themes',
-                        category: 'development',
+                        category: 'AGV',
                         awards: ['2020 Design beautiful apps Finale Awards'],
                         excerpt: 'Design beautiful apps.',
                         body: `<p>In a typical Vue application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme).</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p>`,
@@ -451,7 +435,7 @@
                         subtitle: 'Awesome portfolio',
                         date: '01 March 2021',
                         client: 'Rainbow Themes',
-                        category: 'design',
+                        category: 'Tractor',
                         awards: ['2020 Design beautiful apps Finale Awards'],
                         excerpt: 'Design beautiful apps.',
                         body: `<p>In a typical Vue application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme).</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p>`,
@@ -486,7 +470,7 @@
                         subtitle: 'Awesome portfolio',
                         date: '01 March 2021',
                         client: 'Rainbow Themes',
-                        category: 'design',
+                        category: 'Tractor',
                         awards: ['2020 Design beautiful apps Finale Awards'],
                         excerpt: 'Design beautiful apps.',
                         body: `<p>In a typical Vue application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme).</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p>`,

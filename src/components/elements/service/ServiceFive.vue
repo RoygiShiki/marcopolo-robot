@@ -39,18 +39,18 @@
                 serviceList: [
                     {
                         image: require('@/assets/images/service/gallery-image-01.png'),
-                        title: 'Awarded Design',
-                        description: 'There are many variations variants of passages of Lorem Ipsum available.'
+                        title: 'AGV',
+                        description: 'It can lurk hanging trucks, but also equipped with robotic arms, belt machines, rollers and other equipment to meet the handling needs between production lines.'
                     },
                     {
                         image: require('@/assets/images/service/gallery-image-02.png'),
-                        title: 'Design & Creative',
-                        description: 'Passages there are many variants Lorem Ipsum available majority suffered.'
+                        title: 'Tractor',
+                        description: 'From 300 kg to 6 tons of traction capacity, build outdoor to indoor unmanned rail transport lines. <br /> &nbsp;'
                     },
                     {
                         image: require('@/assets/images/service/gallery-image-03.png'),
-                        title: 'App Development',
-                        description: 'Variations There are many of pass ages of Lorem Ipsum available the majority.'
+                        title: 'Auto Forklift',
+                        description: 'Fork arm lift height up to 11 meters, reuse the upper space resources, redefine the production line construction and warehouse storage scheme.'
                     }
                 ]
             }
